@@ -1,0 +1,24 @@
+#+TITLE: Yex.el
+A Yex Minor mode for Emacs!
+* Installation
+  With [[https://github.com/hlissner/doom-emacs][Doom Emacs]]
+  #+begin_src emacs-lisp
+  (package! yex-mode
+    :recipe (:host github 
+             :repo "yxqsnz/yex.el"))
+  #+end_src
+
+  With [[https://github.com/raxod502/straight.el][straight.el]] (*Not* tested.):
+
+  #+begin_src emacs-lisp 
+    (straight-use-package
+     '(yex-mode :type git :host github
+                           :repo "yxqsnz/yex.el"))
+  #+end_src
+
+  With [[https://github.com/quelpa/quelpa-use-package][quelpa]] (*Not* tested.):
+
+  #+begin_src emacs-lisp
+    (use-package yex-mode
+      :quelpa (yex-mode :fetcher github :repo "yxqsnz/yex.el"))
+  #+end_src
