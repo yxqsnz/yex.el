@@ -8,7 +8,7 @@
 ;; Modified: março 30, 2022
 ;; Version: 0.0.1
 ;; Keywords: extensions
-;; Homepage: https://github.com/yxqsnz/yex-mode
+;; Homepage: https://github.com/yxqsnz/yex.el
 ;; Package-Requires: ((emacs "24.3"))
 ;;
 ;; This file is not part of GNU Emacs.
