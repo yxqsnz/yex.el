@@ -34,16 +34,23 @@
 (eval-and-compile
   (defconst yex-keywords
     '(
+      "if"
+      "elseif"
+      "else"
+      "then"
       "def"
-      "become"
       "let"
-      "in"
-      "if" "else" "then"
+      "fn"
+      "and"
+      "or"
+      "not"
+      "class"
+      "do"
+      "end"
       "new"
-      "this"
-      "type"
-      "typeof"
-      "end")))
+      "when"
+      "try"
+      "rescue")))
 (eval-and-compile
   (defconst yex-builtins
     '(
