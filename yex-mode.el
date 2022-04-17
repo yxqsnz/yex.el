@@ -5,8 +5,8 @@
 ;; Author: yxqsnz <yxqsnz@gmail.com>
 ;; Maintainer: yxqsnz <yxqsnz@gmail.com>
 ;; Created: março 30, 2022
-;; Modified: março 31, 2022
-;; Version: 0.0.1
+;; Modified: Abril 17, 2022
+;; Version: 0.0.2
 ;; Keywords: extensions
 ;; Homepage: https://github.com/yxqsnz/yex.el
 ;; Package-Requires: ((emacs "24.3"))
